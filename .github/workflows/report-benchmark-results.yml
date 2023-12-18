@@ -29,5 +29,4 @@ jobs:
           name: Benchmark.Net Benchmark
           tool: "benchmarkdotnet"
           output-file-path: ./NHapi.Benchmarks.LargeEmbeddedFileTest-report-full-compressed.json
-          auto-push: false
           summary-always: true
