@@ -28,6 +28,6 @@ jobs:
         with:
           name: Benchmark.Net Benchmark
           tool: "benchmarkdotnet"
-          output-file-path: BenchmarkDotNet.Artifacts/results/NHapi.Benchmarks.LargeEmbeddedFileTest-report-full-compressed.json
+          output-file-path: ./NHapi.Benchmarks.LargeEmbeddedFileTest-report-full-compressed.json
           auto-push: false
           summary-always: true
