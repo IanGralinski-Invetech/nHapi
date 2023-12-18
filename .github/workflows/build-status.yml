@@ -115,4 +115,6 @@ jobs:
           name: Benchmark.Net Benchmark
           tool: "benchmarkdotnet"
           output-file-path: ./NHapi.Benchmarks.LargeEmbeddedFileTest-report-full-compressed.json
+          skip-fetch-gh-pages: true
+          save-data-file: false
           summary-always: true
